@@ -9,13 +9,13 @@ public class ApplicationConstant {
     public static final String BOOK_NAME = "BookBookBookBookBookBookBookBookBookBookBookBookBookBookBook" +
             "BookBookBookBookBookBookBookBookBookBookBookBookBookBookBookBookBookBookBookBookBook";
 
-    public static final String AUTHOR_NAME = "BookBookBookBookBookBookBookBookBookBookBookBookBookBookBook" +
-            "BookBookBookBookBookBookBookBookBookBookBookBookBookBookBookBookBookBookBookBookBook";
+    public static final String AUTHOR_NAME = "AuthorAuthorAuthorAuthorAuthorAuthorAuthorAuthorAuthorAuthorAuthorAuthorAuthorAuthorAuthor" +
+            "AuthorAuthorAuthorAuthorAuthorAuthorAuthorAuthorAuthorAuthorAuthorAuthorAuthorAuthorAuthorAuthorAuthorAuthorAuthorAuthorAuthor";
 
-    public static final String TITLE = "BookBookBookBookBookBookBookBookBookBookBookBookBookBookBook" +
-            "BookBookBookBookBookBookBookBookBookBookBookBookBookBookBookBookBookBookBookBookBook";
+    public static final String TITLE = "TitleTitleTitleTitleTitleTitleTitleTitleTitleTitleTitleTitleTitleTitleTitle" +
+            "TitleTitleTitleTitleTitleTitleTitleTitleTitleTitleTitleTitleTitleTitleTitleTitleTitleTitleTitleTitleTitle";
 
-    public static String calculateTime(Date start, Date end){
+    public static String calculateTime(Date start, Date end) {
         long diff = end.getTime() - start.getTime();
 
         String TimeTaken = String.format("[%s] hours : [%s] mins : [%s] secs",

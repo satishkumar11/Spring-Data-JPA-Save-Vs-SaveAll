@@ -25,8 +25,8 @@ public class SaveVsSaveAllApplication {
     @Bean
     public ApplicationRunner init() {
         return args -> {
-//            saveService.saveDocuments();
-			saveAllService.saveDocuments();
+            saveService.saveDocuments();
+//			saveAllService.saveDocuments();
         };
     }
 
